@@ -88,4 +88,26 @@
                             mines(i + 1, j).Text = (CInt(mines(i + 1, j).Text) + 1).ToString
                         End If
                     End If
+                    'bawah kiri 
+                    If (i + 1 < brs) And (j - 1 >= 0) Then
+                        If mines(i + 1, j - 1).Text <> "999" Then
+                            mines(i + 1, j - 1).Text = (CInt(mines(i + 1, j - 1).Text) + 1).ToString
+                        End If
+                    End If
+                    'kiri 
+                    If (i >= 0) And (j - 1 >= 0) Then
+                        If mines(i, j - 1).Text <> "999" Then
+                            mines(i, j - 1).Text = (CInt(mines(i, j - 1).Text) + 1).ToString
+                        End If
+                    End If
+                    'kiri atas 
+                    If (i - 1 >= 0) And (j - 1 >= 0) Then
+                        If mines(i - 1, j - 1).Text <> "999" Then
+                            mines(i - 1, j - 1).Text = (CInt(mines(i - 1, j - 1).Text) + 1).ToString
+                        End If
+                    End If
+                End If
+            Next j
+        Next i
+    End Sub
 End Class
