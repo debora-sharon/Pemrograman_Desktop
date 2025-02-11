@@ -1,0 +1,16 @@
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\WallpaperChanger\WallpaperChanger\bin\Debug\net8.0-windows\WallpaperChanger.exe
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\WallpaperChanger\WallpaperChanger\bin\Debug\net8.0-windows\WallpaperChanger.deps.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\WallpaperChanger\WallpaperChanger\bin\Debug\net8.0-windows\WallpaperChanger.runtimeconfig.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\WallpaperChanger\WallpaperChanger\bin\Debug\net8.0-windows\WallpaperChanger.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\WallpaperChanger\WallpaperChanger\bin\Debug\net8.0-windows\WallpaperChanger.pdb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\WallpaperChanger\WallpaperChanger\obj\Debug\net8.0-windows\WallpaperChanger.Form1.resources
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\WallpaperChanger\WallpaperChanger\obj\Debug\net8.0-windows\WallpaperChanger.vbproj.GenerateResource.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\WallpaperChanger\WallpaperChanger\obj\Debug\net8.0-windows\WallpaperChanger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\WallpaperChanger\WallpaperChanger\obj\Debug\net8.0-windows\WallpaperChanger.AssemblyInfoInputs.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\WallpaperChanger\WallpaperChanger\obj\Debug\net8.0-windows\WallpaperChanger.AssemblyInfo.vb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\WallpaperChanger\WallpaperChanger\obj\Debug\net8.0-windows\WallpaperChanger.vbproj.CoreCompileInputs.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\WallpaperChanger\WallpaperChanger\obj\Debug\net8.0-windows\WallpaperChanger.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\WallpaperChanger\WallpaperChanger\obj\Debug\net8.0-windows\refint\WallpaperChanger.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\WallpaperChanger\WallpaperChanger\obj\Debug\net8.0-windows\WallpaperChanger.pdb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\WallpaperChanger\WallpaperChanger\obj\Debug\net8.0-windows\WallpaperChanger.genruntimeconfig.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\WallpaperChanger\WallpaperChanger\obj\Debug\net8.0-windows\ref\WallpaperChanger.dll
