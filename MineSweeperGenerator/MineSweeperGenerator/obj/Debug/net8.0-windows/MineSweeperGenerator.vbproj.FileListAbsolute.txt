@@ -1,0 +1,17 @@
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MineSweeperGenerator\MineSweeperGenerator\bin\Debug\net8.0-windows\MineSweeperGenerator.exe
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MineSweeperGenerator\MineSweeperGenerator\bin\Debug\net8.0-windows\MineSweeperGenerator.deps.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MineSweeperGenerator\MineSweeperGenerator\bin\Debug\net8.0-windows\MineSweeperGenerator.runtimeconfig.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MineSweeperGenerator\MineSweeperGenerator\bin\Debug\net8.0-windows\MineSweeperGenerator.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MineSweeperGenerator\MineSweeperGenerator\bin\Debug\net8.0-windows\MineSweeperGenerator.pdb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MineSweeperGenerator\MineSweeperGenerator\obj\Debug\net8.0-windows\MineSweeperGenerator.Form1.resources
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MineSweeperGenerator\MineSweeperGenerator\obj\Debug\net8.0-windows\MineSweeperGenerator.vbproj.GenerateResource.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MineSweeperGenerator\MineSweeperGenerator\obj\Debug\net8.0-windows\MineSweeperGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MineSweeperGenerator\MineSweeperGenerator\obj\Debug\net8.0-windows\MineSweeperGenerator.AssemblyInfoInputs.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MineSweeperGenerator\MineSweeperGenerator\obj\Debug\net8.0-windows\MineSweeperGenerator.AssemblyInfo.vb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MineSweeperGenerator\MineSweeperGenerator\obj\Debug\net8.0-windows\MineSweeperGenerator.vbproj.CoreCompileInputs.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MineSweeperGenerator\MineSweeperGenerator\obj\Debug\net8.0-windows\MineSweeperGenerator.sourcelink.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MineSweeperGenerator\MineSweeperGenerator\obj\Debug\net8.0-windows\MineSweeperGenerator.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MineSweeperGenerator\MineSweeperGenerator\obj\Debug\net8.0-windows\refint\MineSweeperGenerator.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MineSweeperGenerator\MineSweeperGenerator\obj\Debug\net8.0-windows\MineSweeperGenerator.pdb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MineSweeperGenerator\MineSweeperGenerator\obj\Debug\net8.0-windows\MineSweeperGenerator.genruntimeconfig.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MineSweeperGenerator\MineSweeperGenerator\obj\Debug\net8.0-windows\ref\MineSweeperGenerator.dll

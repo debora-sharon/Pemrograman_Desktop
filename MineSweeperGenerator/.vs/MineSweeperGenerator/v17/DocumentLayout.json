@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\MineSweeperGenerator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1CC0D328-7A22-49DA-9DD2-A0F3DF27316D}|MineSweeperGenerator\\MineSweeperGenerator.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\minesweepergenerator\\minesweepergenerator\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{1CC0D328-7A22-49DA-9DD2-A0F3DF27316D}|MineSweeperGenerator\\MineSweeperGenerator.vbproj|solutionrelative:minesweepergenerator\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\MineSweeperGenerator\\MineSweeperGenerator\\Form1.vb",
+              "RelativeDocumentMoniker": "MineSweeperGenerator\\Form1.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\MineSweeperGenerator\\MineSweeperGenerator\\Form1.vb [Design]",
+              "RelativeToolTip": "MineSweeperGenerator\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-02-11T16:40:37.291Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
