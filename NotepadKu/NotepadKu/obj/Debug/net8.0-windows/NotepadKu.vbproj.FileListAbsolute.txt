@@ -1,0 +1,17 @@
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\NotepadKu\NotepadKu\obj\Debug\net8.0-windows\NotepadKu.Form1.resources
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\NotepadKu\NotepadKu\obj\Debug\net8.0-windows\NotepadKu.vbproj.GenerateResource.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\NotepadKu\NotepadKu\obj\Debug\net8.0-windows\NotepadKu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\NotepadKu\NotepadKu\obj\Debug\net8.0-windows\NotepadKu.AssemblyInfoInputs.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\NotepadKu\NotepadKu\obj\Debug\net8.0-windows\NotepadKu.AssemblyInfo.vb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\NotepadKu\NotepadKu\obj\Debug\net8.0-windows\NotepadKu.vbproj.CoreCompileInputs.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\NotepadKu\NotepadKu\obj\Debug\net8.0-windows\NotepadKu.sourcelink.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\NotepadKu\NotepadKu\bin\Debug\net8.0-windows\NotepadKu.exe
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\NotepadKu\NotepadKu\bin\Debug\net8.0-windows\NotepadKu.deps.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\NotepadKu\NotepadKu\bin\Debug\net8.0-windows\NotepadKu.runtimeconfig.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\NotepadKu\NotepadKu\bin\Debug\net8.0-windows\NotepadKu.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\NotepadKu\NotepadKu\bin\Debug\net8.0-windows\NotepadKu.pdb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\NotepadKu\NotepadKu\obj\Debug\net8.0-windows\NotepadKu.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\NotepadKu\NotepadKu\obj\Debug\net8.0-windows\refint\NotepadKu.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\NotepadKu\NotepadKu\obj\Debug\net8.0-windows\NotepadKu.pdb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\NotepadKu\NotepadKu\obj\Debug\net8.0-windows\NotepadKu.genruntimeconfig.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\NotepadKu\NotepadKu\obj\Debug\net8.0-windows\ref\NotepadKu.dll

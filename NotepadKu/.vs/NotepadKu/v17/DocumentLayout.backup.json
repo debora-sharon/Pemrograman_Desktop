@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\NotepadKu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0FC575-6E11-43F7-B784-3582C8E478BD}|NotepadKu\\NotepadKu.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\notepadku\\notepadku\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{6B0FC575-6E11-43F7-B784-3582C8E478BD}|NotepadKu\\NotepadKu.vbproj|solutionrelative:notepadku\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0FC575-6E11-43F7-B784-3582C8E478BD}|NotepadKu\\NotepadKu.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\notepadku\\notepadku\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{6B0FC575-6E11-43F7-B784-3582C8E478BD}|NotepadKu\\NotepadKu.vbproj|solutionrelative:notepadku\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\NotepadKu\\NotepadKu\\Form1.vb",
+              "RelativeDocumentMoniker": "NotepadKu\\Form1.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\NotepadKu\\NotepadKu\\Form1.vb",
+              "RelativeToolTip": "NotepadKu\\Form1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-02-25T01:30:57.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\NotepadKu\\NotepadKu\\Form1.vb",
+              "RelativeDocumentMoniker": "NotepadKu\\Form1.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\NotepadKu\\NotepadKu\\Form1.vb [Design]",
+              "RelativeToolTip": "NotepadKu\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-02-25T00:59:17.307Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
