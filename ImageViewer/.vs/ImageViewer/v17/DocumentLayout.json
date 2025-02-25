@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\ImageViewer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1E0B4C-63EC-45B9-AE3F-754B32D02496}|ImageViewer\\ImageViewer.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\imageviewer\\imageviewer\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{CD1E0B4C-63EC-45B9-AE3F-754B32D02496}|ImageViewer\\ImageViewer.vbproj|solutionrelative:imageviewer\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1E0B4C-63EC-45B9-AE3F-754B32D02496}|ImageViewer\\ImageViewer.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\imageviewer\\imageviewer\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CD1E0B4C-63EC-45B9-AE3F-754B32D02496}|ImageViewer\\ImageViewer.vbproj|solutionrelative:imageviewer\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\ImageViewer\\ImageViewer\\Form1.vb",
+              "RelativeDocumentMoniker": "ImageViewer\\Form1.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\ImageViewer\\ImageViewer\\Form1.vb",
+              "RelativeToolTip": "ImageViewer\\Form1.vb",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAnwHkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-02-25T10:16:31.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\ImageViewer\\ImageViewer\\Form1.vb",
+              "RelativeDocumentMoniker": "ImageViewer\\Form1.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\ImageViewer\\ImageViewer\\Form1.vb [Design]",
+              "RelativeToolTip": "ImageViewer\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-02-25T01:57:41.371Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
