@@ -1,0 +1,17 @@
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MassRenamer\MassRenamer\bin\Debug\net8.0-windows\MassRenamer.exe
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MassRenamer\MassRenamer\bin\Debug\net8.0-windows\MassRenamer.deps.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MassRenamer\MassRenamer\bin\Debug\net8.0-windows\MassRenamer.runtimeconfig.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MassRenamer\MassRenamer\bin\Debug\net8.0-windows\MassRenamer.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MassRenamer\MassRenamer\bin\Debug\net8.0-windows\MassRenamer.pdb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MassRenamer\MassRenamer\obj\Debug\net8.0-windows\MassRenamer.Form1.resources
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MassRenamer\MassRenamer\obj\Debug\net8.0-windows\MassRenamer.vbproj.GenerateResource.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MassRenamer\MassRenamer\obj\Debug\net8.0-windows\MassRenamer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MassRenamer\MassRenamer\obj\Debug\net8.0-windows\MassRenamer.AssemblyInfoInputs.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MassRenamer\MassRenamer\obj\Debug\net8.0-windows\MassRenamer.AssemblyInfo.vb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MassRenamer\MassRenamer\obj\Debug\net8.0-windows\MassRenamer.vbproj.CoreCompileInputs.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MassRenamer\MassRenamer\obj\Debug\net8.0-windows\MassRenamer.sourcelink.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MassRenamer\MassRenamer\obj\Debug\net8.0-windows\MassRenamer.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MassRenamer\MassRenamer\obj\Debug\net8.0-windows\refint\MassRenamer.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MassRenamer\MassRenamer\obj\Debug\net8.0-windows\MassRenamer.pdb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MassRenamer\MassRenamer\obj\Debug\net8.0-windows\MassRenamer.genruntimeconfig.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\MassRenamer\MassRenamer\obj\Debug\net8.0-windows\ref\MassRenamer.dll
