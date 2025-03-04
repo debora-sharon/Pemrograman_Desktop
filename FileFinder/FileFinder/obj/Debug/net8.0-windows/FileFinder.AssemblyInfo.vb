@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("FileFinder"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77d7a1f3b1ba9baf2de9554b645d3a153926d438"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c80a86a6fb54cf2d5b2302d2f20712862022e31f"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("FileFinder"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("FileFinder"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

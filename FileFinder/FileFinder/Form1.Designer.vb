@@ -43,16 +43,18 @@ Partial Class Form1
         OpenAndSelectFileInFolderToolStripMenuItem = New ToolStripMenuItem()
         CopyFullPathToClipboardToolStripMenuItem = New ToolStripMenuItem()
         CopyFolderPathToClipboardToolStripMenuItem = New ToolStripMenuItem()
+        DeleteToolStripMenuItem = New ToolStripMenuItem()
+        RenameFileToolStripMenuItem = New ToolStripMenuItem()
         lblFind = New Label()
         Panel1 = New Panel()
-        cbFind = New ComboBox()
-        txtExtension = New TextBox()
         btnSearch = New Button()
+        txtExtension = New TextBox()
+        cbFind = New ComboBox()
         SplitContainer1 = New SplitContainer()
-        tvDrive = New TreeView()
         Panel2 = New Panel()
-        lblInfo = New Label()
         Label3 = New Label()
+        lblInfo = New Label()
+        tvDrive = New TreeView()
         lvFile = New ListView()
         ColumnHeader1 = New ColumnHeader()
         ColumnHeader2 = New ColumnHeader()
@@ -174,9 +176,9 @@ Partial Class Form1
         ' ContextMenuStrip1
         ' 
         ContextMenuStrip1.ImageScalingSize = New Size(20, 20)
-        ContextMenuStrip1.Items.AddRange(New ToolStripItem() {OpenExecuteFileToolStripMenuItem, OpenAndSelectFileInFolderToolStripMenuItem, CopyFullPathToClipboardToolStripMenuItem, CopyFolderPathToClipboardToolStripMenuItem})
+        ContextMenuStrip1.Items.AddRange(New ToolStripItem() {OpenExecuteFileToolStripMenuItem, OpenAndSelectFileInFolderToolStripMenuItem, CopyFullPathToClipboardToolStripMenuItem, CopyFolderPathToClipboardToolStripMenuItem, DeleteToolStripMenuItem, RenameFileToolStripMenuItem})
         ContextMenuStrip1.Name = "ContextMenuStrip1"
-        ContextMenuStrip1.Size = New Size(279, 100)
+        ContextMenuStrip1.Size = New Size(279, 148)
         ' 
         ' OpenExecuteFileToolStripMenuItem
         ' 
@@ -202,6 +204,18 @@ Partial Class Form1
         CopyFolderPathToClipboardToolStripMenuItem.Size = New Size(278, 24)
         CopyFolderPathToClipboardToolStripMenuItem.Text = "Copy Folder Path to Clipboard"
         ' 
+        ' DeleteToolStripMenuItem
+        ' 
+        DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem"
+        DeleteToolStripMenuItem.Size = New Size(278, 24)
+        DeleteToolStripMenuItem.Text = "Delete"
+        ' 
+        ' RenameFileToolStripMenuItem
+        ' 
+        RenameFileToolStripMenuItem.Name = "RenameFileToolStripMenuItem"
+        RenameFileToolStripMenuItem.Size = New Size(278, 24)
+        RenameFileToolStripMenuItem.Text = "Rename"
+        ' 
         ' lblFind
         ' 
         lblFind.AutoSize = True
@@ -223,24 +237,6 @@ Partial Class Form1
         Panel1.Size = New Size(800, 47)
         Panel1.TabIndex = 4
         ' 
-        ' cbFind
-        ' 
-        cbFind.AutoCompleteMode = AutoCompleteMode.SuggestAppend
-        cbFind.AutoCompleteSource = AutoCompleteSource.FileSystem
-        cbFind.FormattingEnabled = True
-        cbFind.Location = New Point(56, 7)
-        cbFind.Name = "cbFind"
-        cbFind.Size = New Size(531, 28)
-        cbFind.TabIndex = 4
-        ' 
-        ' txtExtension
-        ' 
-        txtExtension.Location = New Point(593, 7)
-        txtExtension.Name = "txtExtension"
-        txtExtension.Size = New Size(106, 27)
-        txtExtension.TabIndex = 5
-        txtExtension.Text = "*.*"
-        ' 
         ' btnSearch
         ' 
         btnSearch.Dock = DockStyle.Right
@@ -250,6 +246,24 @@ Partial Class Form1
         btnSearch.TabIndex = 6
         btnSearch.Text = "Search"
         btnSearch.UseVisualStyleBackColor = True
+        ' 
+        ' txtExtension
+        ' 
+        txtExtension.Location = New Point(593, 7)
+        txtExtension.Name = "txtExtension"
+        txtExtension.Size = New Size(106, 27)
+        txtExtension.TabIndex = 5
+        txtExtension.Text = "*.*"
+        ' 
+        ' cbFind
+        ' 
+        cbFind.AutoCompleteMode = AutoCompleteMode.SuggestAppend
+        cbFind.AutoCompleteSource = AutoCompleteSource.FileSystem
+        cbFind.FormattingEnabled = True
+        cbFind.Location = New Point(56, 7)
+        cbFind.Name = "cbFind"
+        cbFind.Size = New Size(531, 28)
+        cbFind.TabIndex = 4
         ' 
         ' SplitContainer1
         ' 
@@ -269,17 +283,6 @@ Partial Class Form1
         SplitContainer1.SplitterDistance = 266
         SplitContainer1.TabIndex = 5
         ' 
-        ' tvDrive
-        ' 
-        tvDrive.Dock = DockStyle.Fill
-        tvDrive.ImageIndex = 0
-        tvDrive.ImageList = ImageList1
-        tvDrive.Location = New Point(0, 0)
-        tvDrive.Name = "tvDrive"
-        tvDrive.SelectedImageIndex = 0
-        tvDrive.Size = New Size(266, 349)
-        tvDrive.TabIndex = 0
-        ' 
         ' Panel2
         ' 
         Panel2.Controls.Add(Label3)
@@ -289,6 +292,14 @@ Partial Class Form1
         Panel2.Name = "Panel2"
         Panel2.Size = New Size(266, 125)
         Panel2.TabIndex = 1
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Location = New Point(11, 33)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(0, 20)
+        Label3.TabIndex = 1
         ' 
         ' lblInfo
         ' 
@@ -300,13 +311,16 @@ Partial Class Form1
         lblInfo.TabIndex = 0
         lblInfo.Text = "Free Fixed Disk Info:"
         ' 
-        ' Label3
+        ' tvDrive
         ' 
-        Label3.AutoSize = True
-        Label3.Location = New Point(11, 33)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(0, 20)
-        Label3.TabIndex = 1
+        tvDrive.Dock = DockStyle.Fill
+        tvDrive.ImageIndex = 0
+        tvDrive.ImageList = ImageList1
+        tvDrive.Location = New Point(0, 0)
+        tvDrive.Name = "tvDrive"
+        tvDrive.SelectedImageIndex = 0
+        tvDrive.Size = New Size(266, 349)
+        tvDrive.TabIndex = 0
         ' 
         ' lvFile
         ' 
@@ -430,5 +444,7 @@ Partial Class Form1
     Friend WithEvents ColumnHeader6 As ColumnHeader
     Friend WithEvents ColumnHeader7 As ColumnHeader
     Friend WithEvents ColumnHeader8 As ColumnHeader
+    Friend WithEvents DeleteToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents RenameFileToolStripMenuItem As ToolStripMenuItem
 
 End Class

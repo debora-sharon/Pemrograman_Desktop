@@ -262,4 +262,38 @@ Public Class Form1
         End If
     End Sub
 
+    Private Sub DeleteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeleteToolStripMenuItem.Click
+        If lvFile.SelectedItems.Count = 1 Then
+            Dim filePath As String = lvFile.SelectedItems(0).Tag.ToString()
+            If MessageBox.Show("Apakah Anda yakin ingin menghapus file?", "Confirm Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) = DialogResult.Yes Then
+                Try
+                    File.Delete(filePath)
+                    MsgBox("File berhasil dihapus.")
+                    lvFile.Items.Remove(lvFile.SelectedItems(0)) ' Remove from ListView
+                Catch ex As Exception
+                    MsgBox("Error deleting file: " & ex.Message)
+                End Try
+            End If
+        End If
+    End Sub
+
+    Private Sub RenameFileToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RenameFileToolStripMenuItem.Click
+        If lvFile.SelectedItems.Count = 1 Then
+            Dim filePath As String = lvFile.SelectedItems(0).Tag
+            Dim newName As String = InputBox("Masukkan nama file baru:", "Rename File", Path.GetFileNameWithoutExtension(filePath))
+            If Not String.IsNullOrEmpty(newName) Then
+                Dim newFilePath As String = Path.Combine(Path.GetDirectoryName(filePath), newName & Path.GetExtension(filePath))
+                Try
+                    File.Move(filePath, newFilePath)
+                    lvFile.SelectedItems(0).Tag = newFilePath
+                    lvFile.SelectedItems(0).SubItems(0).Text = newName
+                    MsgBox("Nama file berhasil diganti!")
+                Catch ex As Exception
+                    MsgBox("Error renaming file: " & ex.Message)
+                End Try
+            End If
+        End If
+    End Sub
+
+
 End Class
