@@ -1,0 +1,17 @@
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\FileFinder\FileFinder\bin\Debug\net8.0-windows\FileFinder.exe
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\FileFinder\FileFinder\bin\Debug\net8.0-windows\FileFinder.deps.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\FileFinder\FileFinder\bin\Debug\net8.0-windows\FileFinder.runtimeconfig.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\FileFinder\FileFinder\bin\Debug\net8.0-windows\FileFinder.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\FileFinder\FileFinder\bin\Debug\net8.0-windows\FileFinder.pdb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\FileFinder\FileFinder\obj\Debug\net8.0-windows\FileFinder.Form1.resources
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\FileFinder\FileFinder\obj\Debug\net8.0-windows\FileFinder.vbproj.GenerateResource.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\FileFinder\FileFinder\obj\Debug\net8.0-windows\FileFinder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\FileFinder\FileFinder\obj\Debug\net8.0-windows\FileFinder.AssemblyInfoInputs.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\FileFinder\FileFinder\obj\Debug\net8.0-windows\FileFinder.AssemblyInfo.vb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\FileFinder\FileFinder\obj\Debug\net8.0-windows\FileFinder.vbproj.CoreCompileInputs.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\FileFinder\FileFinder\obj\Debug\net8.0-windows\FileFinder.sourcelink.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\FileFinder\FileFinder\obj\Debug\net8.0-windows\FileFinder.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\FileFinder\FileFinder\obj\Debug\net8.0-windows\refint\FileFinder.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\FileFinder\FileFinder\obj\Debug\net8.0-windows\FileFinder.pdb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\FileFinder\FileFinder\obj\Debug\net8.0-windows\FileFinder.genruntimeconfig.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\FileFinder\FileFinder\obj\Debug\net8.0-windows\ref\FileFinder.dll
