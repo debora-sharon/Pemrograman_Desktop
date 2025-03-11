@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E5E7664-4910-4B5E-94C9-F917EF0FA721}|SIParkir\\SIParkir.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\siparkir\\siparkir\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{4E5E7664-4910-4B5E-94C9-F917EF0FA721}|SIParkir\\SIParkir.vbproj|solutionrelative:siparkir\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E5E7664-4910-4B5E-94C9-F917EF0FA721}|SIParkir\\SIParkir.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\siparkir\\siparkir\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{4E5E7664-4910-4B5E-94C9-F917EF0FA721}|SIParkir\\SIParkir.vbproj|solutionrelative:siparkir\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E5E7664-4910-4B5E-94C9-F917EF0FA721}|SIParkir\\SIParkir.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\siparkir\\siparkir\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4E5E7664-4910-4B5E-94C9-F917EF0FA721}|SIParkir\\SIParkir.vbproj|solutionrelative:siparkir\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E5E7664-4910-4B5E-94C9-F917EF0FA721}|SIParkir\\SIParkir.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\siparkir\\siparkir\\form4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{4E5E7664-4910-4B5E-94C9-F917EF0FA721}|SIParkir\\SIParkir.vbproj|solutionrelative:siparkir\\form4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E5E7664-4910-4B5E-94C9-F917EF0FA721}|SIParkir\\SIParkir.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\siparkir\\siparkir\\form5.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{4E5E7664-4910-4B5E-94C9-F917EF0FA721}|SIParkir\\SIParkir.vbproj|solutionrelative:siparkir\\form5.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E5E7664-4910-4B5E-94C9-F917EF0FA721}|SIParkir\\SIParkir.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\siparkir\\siparkir\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{4E5E7664-4910-4B5E-94C9-F917EF0FA721}|SIParkir\\SIParkir.vbproj|solutionrelative:siparkir\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.vb",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir\\SIParkir\\Form2.vb",
+              "RelativeDocumentMoniker": "SIParkir\\Form2.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir\\SIParkir\\Form2.vb*",
+              "RelativeToolTip": "SIParkir\\Form2.vb*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-03-11T02:00:28.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form5.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir\\SIParkir\\Form5.vb",
+              "RelativeDocumentMoniker": "SIParkir\\Form5.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir\\SIParkir\\Form5.vb [Design]*",
+              "RelativeToolTip": "SIParkir\\Form5.vb [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-03-11T01:55:20.08Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form4.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir\\SIParkir\\Form4.vb",
+              "RelativeDocumentMoniker": "SIParkir\\Form4.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir\\SIParkir\\Form4.vb [Design]*",
+              "RelativeToolTip": "SIParkir\\Form4.vb [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-03-11T01:42:11.498Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form3.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir\\SIParkir\\Form3.vb",
+              "RelativeDocumentMoniker": "SIParkir\\Form3.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir\\SIParkir\\Form3.vb [Design]*",
+              "RelativeToolTip": "SIParkir\\Form3.vb [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-03-11T01:29:33.844Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir\\SIParkir\\Form2.vb",
+              "RelativeDocumentMoniker": "SIParkir\\Form2.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir\\SIParkir\\Form2.vb [Design]*",
+              "RelativeToolTip": "SIParkir\\Form2.vb [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-03-11T00:57:07.232Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir\\SIParkir\\Form1.vb",
+              "RelativeDocumentMoniker": "SIParkir\\Form1.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir\\SIParkir\\Form1.vb [Design]",
+              "RelativeToolTip": "SIParkir\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-03-11T00:51:22.012Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
