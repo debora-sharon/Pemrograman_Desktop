@@ -49,6 +49,11 @@ Partial Class Form2
         DataGridView1 = New DataGridView()
         txtPlatMuncul = New TextBox()
         txtBiayaParkir = New TextBox()
+        cbMotor = New CheckBox()
+        cbMobil = New CheckBox()
+        cbTaksi = New CheckBox()
+        cbSepeda = New CheckBox()
+        cbBisTruk = New CheckBox()
         MenuStrip1.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
@@ -74,13 +79,13 @@ Partial Class Form2
         ' AturProfilToolStripMenuItem
         ' 
         AturProfilToolStripMenuItem.Name = "AturProfilToolStripMenuItem"
-        AturProfilToolStripMenuItem.Size = New Size(224, 26)
+        AturProfilToolStripMenuItem.Size = New Size(159, 26)
         AturProfilToolStripMenuItem.Text = "Atur Profil"
         ' 
         ' LogoutToolStripMenuItem
         ' 
         LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem"
-        LogoutToolStripMenuItem.Size = New Size(224, 26)
+        LogoutToolStripMenuItem.Size = New Size(159, 26)
         LogoutToolStripMenuItem.Text = "Logout"
         ' 
         ' AdminToolStripMenuItem
@@ -93,13 +98,13 @@ Partial Class Form2
         ' LanggananToolStripMenuItem
         ' 
         LanggananToolStripMenuItem.Name = "LanggananToolStripMenuItem"
-        LanggananToolStripMenuItem.Size = New Size(224, 26)
+        LanggananToolStripMenuItem.Size = New Size(165, 26)
         LanggananToolStripMenuItem.Text = "Langganan"
         ' 
         ' LaporanToolStripMenuItem
         ' 
         LaporanToolStripMenuItem.Name = "LaporanToolStripMenuItem"
-        LaporanToolStripMenuItem.Size = New Size(224, 26)
+        LaporanToolStripMenuItem.Size = New Size(165, 26)
         LaporanToolStripMenuItem.Text = "Laporan"
         ' 
         ' BantuanToolStripMenuItem
@@ -112,13 +117,13 @@ Partial Class Form2
         ' BantuanToolStripMenuItem1
         ' 
         BantuanToolStripMenuItem1.Name = "BantuanToolStripMenuItem1"
-        BantuanToolStripMenuItem1.Size = New Size(224, 26)
+        BantuanToolStripMenuItem1.Size = New Size(146, 26)
         BantuanToolStripMenuItem1.Text = "Bantuan"
         ' 
         ' TentangToolStripMenuItem
         ' 
         TentangToolStripMenuItem.Name = "TentangToolStripMenuItem"
-        TentangToolStripMenuItem.Size = New Size(224, 26)
+        TentangToolStripMenuItem.Size = New Size(146, 26)
         TentangToolStripMenuItem.Text = "Tentang"
         ' 
         ' lblNomorPlat
@@ -282,11 +287,66 @@ Partial Class Form2
         txtBiayaParkir.Text = "Rp 50.000"
         txtBiayaParkir.TextAlign = HorizontalAlignment.Center
         ' 
+        ' cbMotor
+        ' 
+        cbMotor.AutoSize = True
+        cbMotor.Location = New Point(18, 510)
+        cbMotor.Name = "cbMotor"
+        cbMotor.Size = New Size(72, 24)
+        cbMotor.TabIndex = 21
+        cbMotor.Text = "Motor"
+        cbMotor.UseVisualStyleBackColor = True
+        ' 
+        ' cbMobil
+        ' 
+        cbMobil.AutoSize = True
+        cbMobil.Location = New Point(92, 510)
+        cbMobil.Name = "cbMobil"
+        cbMobil.Size = New Size(70, 24)
+        cbMobil.TabIndex = 22
+        cbMobil.Text = "Mobil"
+        cbMobil.UseVisualStyleBackColor = True
+        ' 
+        ' cbTaksi
+        ' 
+        cbTaksi.AutoSize = True
+        cbTaksi.Location = New Point(168, 510)
+        cbTaksi.Name = "cbTaksi"
+        cbTaksi.Size = New Size(62, 24)
+        cbTaksi.TabIndex = 23
+        cbTaksi.Text = "Taksi"
+        cbTaksi.UseVisualStyleBackColor = True
+        ' 
+        ' cbSepeda
+        ' 
+        cbSepeda.AutoSize = True
+        cbSepeda.Location = New Point(236, 510)
+        cbSepeda.Name = "cbSepeda"
+        cbSepeda.Size = New Size(81, 24)
+        cbSepeda.TabIndex = 24
+        cbSepeda.Text = "Sepeda"
+        cbSepeda.UseVisualStyleBackColor = True
+        ' 
+        ' cbBisTruk
+        ' 
+        cbBisTruk.AutoSize = True
+        cbBisTruk.Location = New Point(323, 510)
+        cbBisTruk.Name = "cbBisTruk"
+        cbBisTruk.Size = New Size(83, 24)
+        cbBisTruk.TabIndex = 25
+        cbBisTruk.Text = "Bis/Truk"
+        cbBisTruk.UseVisualStyleBackColor = True
+        ' 
         ' Form2
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 534)
+        ClientSize = New Size(800, 546)
+        Controls.Add(cbBisTruk)
+        Controls.Add(cbSepeda)
+        Controls.Add(cbTaksi)
+        Controls.Add(cbMobil)
+        Controls.Add(cbMotor)
         Controls.Add(txtBiayaParkir)
         Controls.Add(txtPlatMuncul)
         Controls.Add(DataGridView1)
@@ -344,4 +404,9 @@ Partial Class Form2
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents txtPlatMuncul As TextBox
     Friend WithEvents txtBiayaParkir As TextBox
+    Friend WithEvents cbMotor As CheckBox
+    Friend WithEvents cbMobil As CheckBox
+    Friend WithEvents cbTaksi As CheckBox
+    Friend WithEvents cbSepeda As CheckBox
+    Friend WithEvents cbBisTruk As CheckBox
 End Class
