@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form4
+Partial Class frmLangganan
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -26,20 +26,26 @@ Partial Class Form4
         txtNamaPelanggan = New TextBox()
         lblNomorPlat = New Label()
         txtNomorPlat = New TextBox()
-        lblTarifLangganan = New Label()
+        lblBiaya = New Label()
         txtTarifLangganan = New TextBox()
         lblTglBerlaku = New Label()
-        lblIdPelanggan = New Label()
+        lblId = New Label()
         lblHasilIdPelanggan = New Label()
         lblJenis = New Label()
-        ComboBox1 = New ComboBox()
+        cmbJenis = New ComboBox()
         btnTambah = New Button()
         btnEdit = New Button()
         btnHapus = New Button()
         lblKendaraanTerdaftarLangganan = New Label()
         DataGridView1 = New DataGridView()
-        btnTutup = New Button()
+        colId = New DataGridViewTextBoxColumn()
+        colNoPlat = New DataGridViewTextBoxColumn()
+        colNama = New DataGridViewTextBoxColumn()
+        colBiaya = New DataGridViewTextBoxColumn()
+        colJenis = New DataGridViewTextBoxColumn()
+        colExpired = New DataGridViewTextBoxColumn()
         DateTimePicker1 = New DateTimePicker()
+        btnCancel = New Button()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -75,14 +81,14 @@ Partial Class Form4
         txtNomorPlat.Size = New Size(242, 27)
         txtNomorPlat.TabIndex = 3
         ' 
-        ' lblTarifLangganan
+        ' lblBiaya
         ' 
-        lblTarifLangganan.AutoSize = True
-        lblTarifLangganan.Location = New Point(30, 130)
-        lblTarifLangganan.Name = "lblTarifLangganan"
-        lblTarifLangganan.Size = New Size(118, 20)
-        lblTarifLangganan.TabIndex = 4
-        lblTarifLangganan.Text = "Tarif langganan :"
+        lblBiaya.AutoSize = True
+        lblBiaya.Location = New Point(30, 130)
+        lblBiaya.Name = "lblBiaya"
+        lblBiaya.Size = New Size(118, 20)
+        lblBiaya.TabIndex = 4
+        lblBiaya.Text = "Tarif langganan :"
         ' 
         ' txtTarifLangganan
         ' 
@@ -100,14 +106,15 @@ Partial Class Form4
         lblTglBerlaku.TabIndex = 6
         lblTglBerlaku.Text = "Berlaku hingga :"
         ' 
-        ' lblIdPelanggan
+        ' lblId
         ' 
-        lblIdPelanggan.AutoSize = True
-        lblIdPelanggan.Location = New Point(514, 30)
-        lblIdPelanggan.Name = "lblIdPelanggan"
-        lblIdPelanggan.Size = New Size(104, 20)
-        lblIdPelanggan.TabIndex = 8
-        lblIdPelanggan.Text = "ID Pelanggan :"
+        lblId.AutoSize = True
+        lblId.Location = New Point(514, 30)
+        lblId.Name = "lblId"
+        lblId.Size = New Size(104, 20)
+        lblId.TabIndex = 8
+        lblId.Text = "ID Pelanggan :"
+        lblId.Visible = False
         ' 
         ' lblHasilIdPelanggan
         ' 
@@ -126,15 +133,15 @@ Partial Class Form4
         lblJenis.TabIndex = 10
         lblJenis.Text = "Jenis :"
         ' 
-        ' ComboBox1
+        ' cmbJenis
         ' 
-        ComboBox1.FormattingEnabled = True
-        ComboBox1.Items.AddRange(New Object() {"Motor", "Mobil", "Taksi", "Sepeda", "Bis/Truk"})
-        ComboBox1.Location = New Point(484, 77)
-        ComboBox1.Name = "ComboBox1"
-        ComboBox1.Size = New Size(128, 28)
-        ComboBox1.TabIndex = 11
-        ComboBox1.Text = "Pilih Jenis"
+        cmbJenis.FormattingEnabled = True
+        cmbJenis.Items.AddRange(New Object() {"Motor", "Mobil", "Taksi", "Sepeda", "Bis/Truk"})
+        cmbJenis.Location = New Point(484, 77)
+        cmbJenis.Name = "cmbJenis"
+        cmbJenis.Size = New Size(128, 28)
+        cmbJenis.TabIndex = 11
+        cmbJenis.Text = "Pilih Jenis"
         ' 
         ' btnTambah
         ' 
@@ -176,20 +183,54 @@ Partial Class Form4
         ' 
         DataGridView1.BackgroundColor = SystemColors.Control
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridView1.Columns.AddRange(New DataGridViewColumn() {colId, colNoPlat, colNama, colBiaya, colJenis, colExpired})
         DataGridView1.Location = New Point(30, 266)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.RowHeadersWidth = 51
-        DataGridView1.Size = New Size(695, 119)
+        DataGridView1.Size = New Size(795, 172)
         DataGridView1.TabIndex = 16
         ' 
-        ' btnTutup
+        ' colId
         ' 
-        btnTutup.Location = New Point(631, 402)
-        btnTutup.Name = "btnTutup"
-        btnTutup.Size = New Size(94, 29)
-        btnTutup.TabIndex = 17
-        btnTutup.Text = "Tutup"
-        btnTutup.UseVisualStyleBackColor = True
+        colId.HeaderText = "Id"
+        colId.MinimumWidth = 6
+        colId.Name = "colId"
+        colId.Width = 115
+        ' 
+        ' colNoPlat
+        ' 
+        colNoPlat.HeaderText = "No Plat"
+        colNoPlat.MinimumWidth = 6
+        colNoPlat.Name = "colNoPlat"
+        colNoPlat.Width = 125
+        ' 
+        ' colNama
+        ' 
+        colNama.HeaderText = "Nama Pemilik"
+        colNama.MinimumWidth = 6
+        colNama.Name = "colNama"
+        colNama.Width = 125
+        ' 
+        ' colBiaya
+        ' 
+        colBiaya.HeaderText = "Biaya"
+        colBiaya.MinimumWidth = 6
+        colBiaya.Name = "colBiaya"
+        colBiaya.Width = 125
+        ' 
+        ' colJenis
+        ' 
+        colJenis.HeaderText = "Jenis"
+        colJenis.MinimumWidth = 6
+        colJenis.Name = "colJenis"
+        colJenis.Width = 125
+        ' 
+        ' colExpired
+        ' 
+        colExpired.HeaderText = "Expired"
+        colExpired.MinimumWidth = 6
+        colExpired.Name = "colExpired"
+        colExpired.Width = 125
         ' 
         ' DateTimePicker1
         ' 
@@ -198,30 +239,41 @@ Partial Class Form4
         DateTimePicker1.Size = New Size(242, 27)
         DateTimePicker1.TabIndex = 18
         ' 
-        ' Form4
+        ' btnCancel
+        ' 
+        btnCancel.Location = New Point(731, 176)
+        btnCancel.Name = "btnCancel"
+        btnCancel.Size = New Size(94, 29)
+        btnCancel.TabIndex = 19
+        btnCancel.Text = "Cancel"
+        btnCancel.UseVisualStyleBackColor = True
+        btnCancel.Visible = False
+        ' 
+        ' frmLangganan
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(749, 450)
+        ClientSize = New Size(850, 450)
+        Controls.Add(btnCancel)
         Controls.Add(DateTimePicker1)
-        Controls.Add(btnTutup)
         Controls.Add(DataGridView1)
         Controls.Add(lblKendaraanTerdaftarLangganan)
         Controls.Add(btnHapus)
         Controls.Add(btnEdit)
         Controls.Add(btnTambah)
-        Controls.Add(ComboBox1)
+        Controls.Add(cmbJenis)
         Controls.Add(lblJenis)
         Controls.Add(lblHasilIdPelanggan)
-        Controls.Add(lblIdPelanggan)
+        Controls.Add(lblId)
         Controls.Add(lblTglBerlaku)
         Controls.Add(txtTarifLangganan)
-        Controls.Add(lblTarifLangganan)
+        Controls.Add(lblBiaya)
         Controls.Add(txtNomorPlat)
         Controls.Add(lblNomorPlat)
         Controls.Add(txtNamaPelanggan)
         Controls.Add(lblNamaPelanggan)
-        Name = "Form4"
+        KeyPreview = True
+        Name = "frmLangganan"
         StartPosition = FormStartPosition.CenterScreen
         Text = "SIParkir - Langganan"
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
@@ -233,18 +285,24 @@ Partial Class Form4
     Friend WithEvents txtNamaPelanggan As TextBox
     Friend WithEvents lblNomorPlat As Label
     Friend WithEvents txtNomorPlat As TextBox
-    Friend WithEvents lblTarifLangganan As Label
+    Friend WithEvents lblBiaya As Label
     Friend WithEvents txtTarifLangganan As TextBox
     Friend WithEvents lblTglBerlaku As Label
-    Friend WithEvents lblIdPelanggan As Label
+    Friend WithEvents lblId As Label
     Friend WithEvents lblHasilIdPelanggan As Label
     Friend WithEvents lblJenis As Label
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents cmbJenis As ComboBox
     Friend WithEvents btnTambah As Button
     Friend WithEvents btnEdit As Button
     Friend WithEvents btnHapus As Button
     Friend WithEvents lblKendaraanTerdaftarLangganan As Label
     Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents btnTutup As Button
     Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents btnCancel As Button
+    Friend WithEvents colId As DataGridViewTextBoxColumn
+    Friend WithEvents colNoPlat As DataGridViewTextBoxColumn
+    Friend WithEvents colNama As DataGridViewTextBoxColumn
+    Friend WithEvents colBiaya As DataGridViewTextBoxColumn
+    Friend WithEvents colJenis As DataGridViewTextBoxColumn
+    Friend WithEvents colExpired As DataGridViewTextBoxColumn
 End Class

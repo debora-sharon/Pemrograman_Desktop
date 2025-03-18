@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form3
+Partial Class frmProfil
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -99,7 +99,7 @@ Partial Class Form3
         btnSimpan.Text = "Simpan"
         btnSimpan.UseVisualStyleBackColor = True
         ' 
-        ' Form3
+        ' frmProfil
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
@@ -112,8 +112,9 @@ Partial Class Form3
         Controls.Add(lblPasswordBaru)
         Controls.Add(txtUsername)
         Controls.Add(lblUsername)
-        Name = "Form3"
-        StartPosition = FormStartPosition.CenterScreen
+        KeyPreview = True
+        Name = "frmProfil"
+        StartPosition = FormStartPosition.CenterParent
         Text = "SIParkir - Ubah Profil"
         ResumeLayout(False)
         PerformLayout()

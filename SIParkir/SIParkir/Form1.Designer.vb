@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class frmLogin
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,45 +22,46 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        lblUsernameLogin = New Label()
-        txtUsernameLogin = New TextBox()
-        lblPasswordLogin = New Label()
-        txtPasswordLogin = New TextBox()
+        lblUsername = New Label()
+        txtUsername = New TextBox()
+        lblPassword = New Label()
+        txtPassword = New TextBox()
         btnKeluar = New Button()
         btnLogin = New Button()
         SuspendLayout()
         ' 
-        ' lblUsernameLogin
+        ' lblUsername
         ' 
-        lblUsernameLogin.AutoSize = True
-        lblUsernameLogin.Location = New Point(89, 84)
-        lblUsernameLogin.Name = "lblUsernameLogin"
-        lblUsernameLogin.Size = New Size(82, 20)
-        lblUsernameLogin.TabIndex = 0
-        lblUsernameLogin.Text = "Username :"
+        lblUsername.AutoSize = True
+        lblUsername.Location = New Point(89, 84)
+        lblUsername.Name = "lblUsername"
+        lblUsername.Size = New Size(82, 20)
+        lblUsername.TabIndex = 0
+        lblUsername.Text = "Username :"
         ' 
-        ' txtUsernameLogin
+        ' txtUsername
         ' 
-        txtUsernameLogin.Location = New Point(213, 81)
-        txtUsernameLogin.Name = "txtUsernameLogin"
-        txtUsernameLogin.Size = New Size(225, 27)
-        txtUsernameLogin.TabIndex = 1
+        txtUsername.Location = New Point(213, 81)
+        txtUsername.Name = "txtUsername"
+        txtUsername.Size = New Size(225, 27)
+        txtUsername.TabIndex = 1
         ' 
-        ' lblPasswordLogin
+        ' lblPassword
         ' 
-        lblPasswordLogin.AutoSize = True
-        lblPasswordLogin.Location = New Point(89, 135)
-        lblPasswordLogin.Name = "lblPasswordLogin"
-        lblPasswordLogin.Size = New Size(77, 20)
-        lblPasswordLogin.TabIndex = 2
-        lblPasswordLogin.Text = "Password :"
+        lblPassword.AutoSize = True
+        lblPassword.Location = New Point(89, 135)
+        lblPassword.Name = "lblPassword"
+        lblPassword.Size = New Size(77, 20)
+        lblPassword.TabIndex = 2
+        lblPassword.Text = "Password :"
         ' 
-        ' txtPasswordLogin
+        ' txtPassword
         ' 
-        txtPasswordLogin.Location = New Point(213, 132)
-        txtPasswordLogin.Name = "txtPasswordLogin"
-        txtPasswordLogin.Size = New Size(225, 27)
-        txtPasswordLogin.TabIndex = 3
+        txtPassword.Location = New Point(213, 132)
+        txtPassword.Name = "txtPassword"
+        txtPassword.PasswordChar = "*"c
+        txtPassword.Size = New Size(225, 27)
+        txtPassword.TabIndex = 3
         ' 
         ' btnKeluar
         ' 
@@ -80,28 +81,29 @@ Partial Class Form1
         btnLogin.Text = "Login"
         btnLogin.UseVisualStyleBackColor = True
         ' 
-        ' Form1
+        ' frmLogin
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(551, 282)
         Controls.Add(btnLogin)
         Controls.Add(btnKeluar)
-        Controls.Add(txtPasswordLogin)
-        Controls.Add(lblPasswordLogin)
-        Controls.Add(txtUsernameLogin)
-        Controls.Add(lblUsernameLogin)
-        Name = "Form1"
+        Controls.Add(txtPassword)
+        Controls.Add(lblPassword)
+        Controls.Add(txtUsername)
+        Controls.Add(lblUsername)
+        KeyPreview = True
+        Name = "frmLogin"
         StartPosition = FormStartPosition.CenterScreen
         Text = "SIParkir - Login"
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
-    Friend WithEvents lblUsernameLogin As Label
-    Friend WithEvents txtUsernameLogin As TextBox
-    Friend WithEvents lblPasswordLogin As Label
-    Friend WithEvents txtPasswordLogin As TextBox
+    Friend WithEvents lblUsername As Label
+    Friend WithEvents txtUsername As TextBox
+    Friend WithEvents lblPassword As Label
+    Friend WithEvents txtPassword As TextBox
     Friend WithEvents btnKeluar As Button
     Friend WithEvents btnLogin As Button
 

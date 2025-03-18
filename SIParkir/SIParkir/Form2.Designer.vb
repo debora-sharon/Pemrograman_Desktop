@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form2
+Partial Class frmUtama
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,6 +22,7 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        components = New ComponentModel.Container()
         MenuStrip1 = New MenuStrip()
         SistemToolStripMenuItem = New ToolStripMenuItem()
         AturProfilToolStripMenuItem = New ToolStripMenuItem()
@@ -33,30 +34,41 @@ Partial Class Form2
         BantuanToolStripMenuItem1 = New ToolStripMenuItem()
         TentangToolStripMenuItem = New ToolStripMenuItem()
         lblNomorPlat = New Label()
-        txtNomorPlat = New TextBox()
+        txtNoPlat = New TextBox()
         lblJenis = New Label()
-        ComboBox1 = New ComboBox()
-        btnMasuk = New Button()
-        btnKeluar = New Button()
+        cbJenis = New ComboBox()
         lblBiayaParkir = New Label()
         PictureBox1 = New PictureBox()
         lblInformasi = New Label()
         lblTanggal = New Label()
-        lblTanggalMuncul = New Label()
         lblJam = New Label()
         lblJamMuncul = New Label()
         lblKendaraanSedangParkir = New Label()
         DataGridView1 = New DataGridView()
-        txtPlatMuncul = New TextBox()
-        txtBiayaParkir = New TextBox()
-        cbMotor = New CheckBox()
-        cbMobil = New CheckBox()
-        cbTaksi = New CheckBox()
-        cbSepeda = New CheckBox()
-        cbBisTruk = New CheckBox()
+        ColNoPlat = New DataGridViewTextBoxColumn()
+        ColMasuk = New DataGridViewTextBoxColumn()
+        Colkeluar = New DataGridViewTextBoxColumn()
+        ColHarga = New DataGridViewTextBoxColumn()
+        ColJenis = New DataGridViewTextBoxColumn()
+        ColId = New DataGridViewTextBoxColumn()
+        ContextMenuStrip1 = New ContextMenuStrip(components)
+        ToolStripMenuDelete = New ToolStripMenuItem()
+        pnlPlat = New Panel()
+        lblPlat = New Label()
+        pnlHarga = New Panel()
+        lblHarga = New Label()
+        pnlInput = New Panel()
+        Label1 = New Label()
+        pnlGrid = New Panel()
+        lblJmlKendaraan = New Label()
         MenuStrip1.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
+        ContextMenuStrip1.SuspendLayout()
+        pnlPlat.SuspendLayout()
+        pnlHarga.SuspendLayout()
+        pnlInput.SuspendLayout()
+        pnlGrid.SuspendLayout()
         SuspendLayout()
         ' 
         ' MenuStrip1
@@ -65,7 +77,7 @@ Partial Class Form2
         MenuStrip1.Items.AddRange(New ToolStripItem() {SistemToolStripMenuItem, AdminToolStripMenuItem, BantuanToolStripMenuItem})
         MenuStrip1.Location = New Point(0, 0)
         MenuStrip1.Name = "MenuStrip1"
-        MenuStrip1.Size = New Size(800, 28)
+        MenuStrip1.Size = New Size(1089, 28)
         MenuStrip1.TabIndex = 0
         MenuStrip1.Text = "MenuStrip1"
         ' 
@@ -98,14 +110,14 @@ Partial Class Form2
         ' LanggananToolStripMenuItem
         ' 
         LanggananToolStripMenuItem.Name = "LanggananToolStripMenuItem"
-        LanggananToolStripMenuItem.Size = New Size(165, 26)
-        LanggananToolStripMenuItem.Text = "Langganan"
+        LanggananToolStripMenuItem.Size = New Size(240, 26)
+        LanggananToolStripMenuItem.Text = "Kendaraan Langganan"
         ' 
         ' LaporanToolStripMenuItem
         ' 
         LaporanToolStripMenuItem.Name = "LaporanToolStripMenuItem"
-        LaporanToolStripMenuItem.Size = New Size(165, 26)
-        LaporanToolStripMenuItem.Text = "Laporan"
+        LaporanToolStripMenuItem.Size = New Size(240, 26)
+        LaporanToolStripMenuItem.Text = "Laporan Pendapatan"
         ' 
         ' BantuanToolStripMenuItem
         ' 
@@ -135,13 +147,13 @@ Partial Class Form2
         lblNomorPlat.TabIndex = 2
         lblNomorPlat.Text = "Nomor Plat :"
         ' 
-        ' txtNomorPlat
+        ' txtNoPlat
         ' 
-        txtNomorPlat.BorderStyle = BorderStyle.FixedSingle
-        txtNomorPlat.Location = New Point(126, 169)
-        txtNomorPlat.Name = "txtNomorPlat"
-        txtNomorPlat.Size = New Size(279, 27)
-        txtNomorPlat.TabIndex = 3
+        txtNoPlat.BorderStyle = BorderStyle.FixedSingle
+        txtNoPlat.Location = New Point(126, 169)
+        txtNoPlat.Name = "txtNoPlat"
+        txtNoPlat.Size = New Size(232, 27)
+        txtNoPlat.TabIndex = 3
         ' 
         ' lblJenis
         ' 
@@ -152,33 +164,15 @@ Partial Class Form2
         lblJenis.TabIndex = 4
         lblJenis.Text = "Jenis : "
         ' 
-        ' ComboBox1
+        ' cbJenis
         ' 
-        ComboBox1.FormattingEnabled = True
-        ComboBox1.Items.AddRange(New Object() {"Motor", "Mobil", "Taksi", "Sepeda", "Bis/Truk"})
-        ComboBox1.Location = New Point(126, 212)
-        ComboBox1.Name = "ComboBox1"
-        ComboBox1.Size = New Size(139, 28)
-        ComboBox1.TabIndex = 5
-        ComboBox1.Text = "Pilih Jenis"
-        ' 
-        ' btnMasuk
-        ' 
-        btnMasuk.Location = New Point(126, 255)
-        btnMasuk.Name = "btnMasuk"
-        btnMasuk.Size = New Size(121, 32)
-        btnMasuk.TabIndex = 6
-        btnMasuk.Text = "Masuk"
-        btnMasuk.UseVisualStyleBackColor = True
-        ' 
-        ' btnKeluar
-        ' 
-        btnKeluar.Location = New Point(284, 255)
-        btnKeluar.Name = "btnKeluar"
-        btnKeluar.Size = New Size(121, 32)
-        btnKeluar.TabIndex = 7
-        btnKeluar.Text = "Keluar"
-        btnKeluar.UseVisualStyleBackColor = True
+        cbJenis.FormattingEnabled = True
+        cbJenis.Items.AddRange(New Object() {"Motor", "Mobil", "Taksi", "Sepeda", "Bis/Truk"})
+        cbJenis.Location = New Point(126, 212)
+        cbJenis.Name = "cbJenis"
+        cbJenis.Size = New Size(139, 28)
+        cbJenis.TabIndex = 5
+        cbJenis.Text = "Pilih Jenis"
         ' 
         ' lblBiayaParkir
         ' 
@@ -194,7 +188,7 @@ Partial Class Form2
         PictureBox1.Image = My.Resources.Resources._2931142_minimize_minus_remove_line_icon
         PictureBox1.Location = New Point(12, 392)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(393, 48)
+        PictureBox1.Size = New Size(346, 48)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 11
         PictureBox1.TabStop = False
@@ -217,15 +211,6 @@ Partial Class Form2
         lblTanggal.TabIndex = 13
         lblTanggal.Text = "Tanggal :"
         ' 
-        ' lblTanggalMuncul
-        ' 
-        lblTanggalMuncul.AutoSize = True
-        lblTanggalMuncul.Location = New Point(76, 476)
-        lblTanggalMuncul.Name = "lblTanggalMuncul"
-        lblTanggalMuncul.Size = New Size(85, 20)
-        lblTanggalMuncul.TabIndex = 14
-        lblTanggalMuncul.Text = "12-34-5678"
-        ' 
         ' lblJam
         ' 
         lblJam.AutoSize = True
@@ -247,7 +232,7 @@ Partial Class Form2
         ' lblKendaraanSedangParkir
         ' 
         lblKendaraanSedangParkir.AutoSize = True
-        lblKendaraanSedangParkir.Location = New Point(445, 172)
+        lblKendaraanSedangParkir.Location = New Point(391, 172)
         lblKendaraanSedangParkir.Name = "lblKendaraanSedangParkir"
         lblKendaraanSedangParkir.Size = New Size(181, 20)
         lblKendaraanSedangParkir.TabIndex = 17
@@ -257,122 +242,187 @@ Partial Class Form2
         ' 
         DataGridView1.BackgroundColor = SystemColors.Control
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Location = New Point(445, 195)
+        DataGridView1.Columns.AddRange(New DataGridViewColumn() {ColNoPlat, ColMasuk, Colkeluar, ColHarga, ColJenis, ColId})
+        DataGridView1.ContextMenuStrip = ContextMenuStrip1
+        DataGridView1.Dock = DockStyle.Fill
+        DataGridView1.Location = New Point(0, 0)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.RowHeadersWidth = 51
-        DataGridView1.Size = New Size(343, 301)
+        DataGridView1.Size = New Size(675, 327)
         DataGridView1.TabIndex = 18
         ' 
-        ' txtPlatMuncul
+        ' ColNoPlat
         ' 
-        txtPlatMuncul.BorderStyle = BorderStyle.FixedSingle
-        txtPlatMuncul.Font = New Font("Segoe UI", 48F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txtPlatMuncul.Location = New Point(12, 31)
-        txtPlatMuncul.Multiline = True
-        txtPlatMuncul.Name = "txtPlatMuncul"
-        txtPlatMuncul.Size = New Size(776, 120)
-        txtPlatMuncul.TabIndex = 19
-        txtPlatMuncul.Text = "R 6872 ZH"
-        txtPlatMuncul.TextAlign = HorizontalAlignment.Center
+        ColNoPlat.HeaderText = "No Plat"
+        ColNoPlat.MinimumWidth = 6
+        ColNoPlat.Name = "ColNoPlat"
+        ColNoPlat.Width = 125
         ' 
-        ' txtBiayaParkir
+        ' ColMasuk
         ' 
-        txtBiayaParkir.BorderStyle = BorderStyle.FixedSingle
-        txtBiayaParkir.Font = New Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txtBiayaParkir.Location = New Point(126, 305)
-        txtBiayaParkir.Multiline = True
-        txtBiayaParkir.Name = "txtBiayaParkir"
-        txtBiayaParkir.Size = New Size(279, 66)
-        txtBiayaParkir.TabIndex = 20
-        txtBiayaParkir.Text = "Rp 50.000"
-        txtBiayaParkir.TextAlign = HorizontalAlignment.Center
+        ColMasuk.HeaderText = "Masuk"
+        ColMasuk.MinimumWidth = 6
+        ColMasuk.Name = "ColMasuk"
+        ColMasuk.Width = 125
         ' 
-        ' cbMotor
+        ' Colkeluar
         ' 
-        cbMotor.AutoSize = True
-        cbMotor.Location = New Point(18, 510)
-        cbMotor.Name = "cbMotor"
-        cbMotor.Size = New Size(72, 24)
-        cbMotor.TabIndex = 21
-        cbMotor.Text = "Motor"
-        cbMotor.UseVisualStyleBackColor = True
+        Colkeluar.HeaderText = "Keluar"
+        Colkeluar.MinimumWidth = 6
+        Colkeluar.Name = "Colkeluar"
+        Colkeluar.Width = 125
         ' 
-        ' cbMobil
+        ' ColHarga
         ' 
-        cbMobil.AutoSize = True
-        cbMobil.Location = New Point(92, 510)
-        cbMobil.Name = "cbMobil"
-        cbMobil.Size = New Size(70, 24)
-        cbMobil.TabIndex = 22
-        cbMobil.Text = "Mobil"
-        cbMobil.UseVisualStyleBackColor = True
+        ColHarga.HeaderText = "Harga"
+        ColHarga.MinimumWidth = 6
+        ColHarga.Name = "ColHarga"
+        ColHarga.Width = 125
         ' 
-        ' cbTaksi
+        ' ColJenis
         ' 
-        cbTaksi.AutoSize = True
-        cbTaksi.Location = New Point(168, 510)
-        cbTaksi.Name = "cbTaksi"
-        cbTaksi.Size = New Size(62, 24)
-        cbTaksi.TabIndex = 23
-        cbTaksi.Text = "Taksi"
-        cbTaksi.UseVisualStyleBackColor = True
+        ColJenis.HeaderText = "Jenis"
+        ColJenis.MinimumWidth = 6
+        ColJenis.Name = "ColJenis"
+        ColJenis.Width = 125
         ' 
-        ' cbSepeda
+        ' ColId
         ' 
-        cbSepeda.AutoSize = True
-        cbSepeda.Location = New Point(236, 510)
-        cbSepeda.Name = "cbSepeda"
-        cbSepeda.Size = New Size(81, 24)
-        cbSepeda.TabIndex = 24
-        cbSepeda.Text = "Sepeda"
-        cbSepeda.UseVisualStyleBackColor = True
+        ColId.HeaderText = "Id"
+        ColId.MinimumWidth = 6
+        ColId.Name = "ColId"
+        ColId.ReadOnly = True
+        ColId.Visible = False
+        ColId.Width = 125
         ' 
-        ' cbBisTruk
+        ' ContextMenuStrip1
         ' 
-        cbBisTruk.AutoSize = True
-        cbBisTruk.Location = New Point(323, 510)
-        cbBisTruk.Name = "cbBisTruk"
-        cbBisTruk.Size = New Size(83, 24)
-        cbBisTruk.TabIndex = 25
-        cbBisTruk.Text = "Bis/Truk"
-        cbBisTruk.UseVisualStyleBackColor = True
+        ContextMenuStrip1.ImageScalingSize = New Size(20, 20)
+        ContextMenuStrip1.Items.AddRange(New ToolStripItem() {ToolStripMenuDelete})
+        ContextMenuStrip1.Name = "ContextMenuStrip1"
+        ContextMenuStrip1.Size = New Size(123, 28)
         ' 
-        ' Form2
+        ' ToolStripMenuDelete
+        ' 
+        ToolStripMenuDelete.Name = "ToolStripMenuDelete"
+        ToolStripMenuDelete.Size = New Size(122, 24)
+        ToolStripMenuDelete.Text = "Delete"
+        ' 
+        ' pnlPlat
+        ' 
+        pnlPlat.BorderStyle = BorderStyle.Fixed3D
+        pnlPlat.Controls.Add(lblPlat)
+        pnlPlat.Dock = DockStyle.Top
+        pnlPlat.Location = New Point(0, 28)
+        pnlPlat.Name = "pnlPlat"
+        pnlPlat.Size = New Size(1089, 125)
+        pnlPlat.TabIndex = 27
+        ' 
+        ' lblPlat
+        ' 
+        lblPlat.AutoSize = True
+        lblPlat.Font = New Font("Segoe UI", 60F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblPlat.Location = New Point(275, 0)
+        lblPlat.Name = "lblPlat"
+        lblPlat.Size = New Size(548, 133)
+        lblPlat.TabIndex = 0
+        lblPlat.Text = "R 6872 ZH"
+        ' 
+        ' pnlHarga
+        ' 
+        pnlHarga.BorderStyle = BorderStyle.Fixed3D
+        pnlHarga.Controls.Add(lblHarga)
+        pnlHarga.Location = New Point(126, 303)
+        pnlHarga.Name = "pnlHarga"
+        pnlHarga.Size = New Size(232, 74)
+        pnlHarga.TabIndex = 28
+        ' 
+        ' lblHarga
+        ' 
+        lblHarga.AutoSize = True
+        lblHarga.Font = New Font("Segoe UI", 22.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblHarga.Location = New Point(3, 9)
+        lblHarga.Name = "lblHarga"
+        lblHarga.Size = New Size(79, 50)
+        lblHarga.TabIndex = 0
+        lblHarga.Text = "Rp."
+        ' 
+        ' pnlInput
+        ' 
+        pnlInput.BorderStyle = BorderStyle.Fixed3D
+        pnlInput.Controls.Add(Label1)
+        pnlInput.Location = New Point(0, 162)
+        pnlInput.Name = "pnlInput"
+        pnlInput.Size = New Size(371, 125)
+        pnlInput.TabIndex = 29
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Location = New Point(10, 89)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(227, 20)
+        Label1.TabIndex = 0
+        Label1.Text = "Tekan Enter untuk Masuk / Keluar"
+        ' 
+        ' pnlGrid
+        ' 
+        pnlGrid.AutoScroll = True
+        pnlGrid.Controls.Add(DataGridView1)
+        pnlGrid.Location = New Point(391, 195)
+        pnlGrid.Name = "pnlGrid"
+        pnlGrid.Size = New Size(675, 327)
+        pnlGrid.TabIndex = 30
+        ' 
+        ' lblJmlKendaraan
+        ' 
+        lblJmlKendaraan.AutoSize = True
+        lblJmlKendaraan.Location = New Point(12, 512)
+        lblJmlKendaraan.Name = "lblJmlKendaraan"
+        lblJmlKendaraan.Size = New Size(310, 20)
+        lblJmlKendaraan.TabIndex = 31
+        lblJmlKendaraan.Text = "0 Motor, 0 Mobil, 0 Taksi, 0 Sepeda, 0 Bis/Truk"
+        ' 
+        ' frmUtama
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 546)
-        Controls.Add(cbBisTruk)
-        Controls.Add(cbSepeda)
-        Controls.Add(cbTaksi)
-        Controls.Add(cbMobil)
-        Controls.Add(cbMotor)
-        Controls.Add(txtBiayaParkir)
-        Controls.Add(txtPlatMuncul)
-        Controls.Add(DataGridView1)
+        ClientSize = New Size(1089, 546)
+        Controls.Add(lblJmlKendaraan)
+        Controls.Add(pnlHarga)
+        Controls.Add(pnlPlat)
         Controls.Add(lblKendaraanSedangParkir)
         Controls.Add(lblJamMuncul)
         Controls.Add(lblJam)
-        Controls.Add(lblTanggalMuncul)
         Controls.Add(lblTanggal)
         Controls.Add(lblInformasi)
         Controls.Add(PictureBox1)
         Controls.Add(lblBiayaParkir)
-        Controls.Add(btnKeluar)
-        Controls.Add(btnMasuk)
-        Controls.Add(ComboBox1)
+        Controls.Add(cbJenis)
         Controls.Add(lblJenis)
-        Controls.Add(txtNomorPlat)
+        Controls.Add(txtNoPlat)
         Controls.Add(lblNomorPlat)
         Controls.Add(MenuStrip1)
+        Controls.Add(pnlInput)
+        Controls.Add(pnlGrid)
+        KeyPreview = True
         MainMenuStrip = MenuStrip1
-        Name = "Form2"
+        MaximizeBox = False
+        Name = "frmUtama"
         StartPosition = FormStartPosition.CenterScreen
         Text = "SIParkir - Form Utama"
         MenuStrip1.ResumeLayout(False)
         MenuStrip1.PerformLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
+        ContextMenuStrip1.ResumeLayout(False)
+        pnlPlat.ResumeLayout(False)
+        pnlPlat.PerformLayout()
+        pnlHarga.ResumeLayout(False)
+        pnlHarga.PerformLayout()
+        pnlInput.ResumeLayout(False)
+        pnlInput.PerformLayout()
+        pnlGrid.ResumeLayout(False)
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -388,25 +438,31 @@ Partial Class Form2
     Friend WithEvents BantuanToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents TentangToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents lblNomorPlat As Label
-    Friend WithEvents txtNomorPlat As TextBox
+    Friend WithEvents txtNoPlat As TextBox
     Friend WithEvents lblJenis As Label
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents btnMasuk As Button
-    Friend WithEvents btnKeluar As Button
+    Friend WithEvents cbJenis As ComboBox
     Friend WithEvents lblBiayaParkir As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents lblInformasi As Label
     Friend WithEvents lblTanggal As Label
-    Friend WithEvents lblTanggalMuncul As Label
     Friend WithEvents lblJam As Label
     Friend WithEvents lblJamMuncul As Label
     Friend WithEvents lblKendaraanSedangParkir As Label
     Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents txtPlatMuncul As TextBox
-    Friend WithEvents txtBiayaParkir As TextBox
-    Friend WithEvents cbMotor As CheckBox
-    Friend WithEvents cbMobil As CheckBox
-    Friend WithEvents cbTaksi As CheckBox
-    Friend WithEvents cbSepeda As CheckBox
-    Friend WithEvents cbBisTruk As CheckBox
+    Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
+    Friend WithEvents ToolStripMenuDelete As ToolStripMenuItem
+    Friend WithEvents pnlPlat As Panel
+    Friend WithEvents pnlHarga As Panel
+    Friend WithEvents pnlInput As Panel
+    Friend WithEvents pnlGrid As Panel
+    Friend WithEvents lblPlat As Label
+    Friend WithEvents lblHarga As Label
+    Friend WithEvents ColNoPlat As DataGridViewTextBoxColumn
+    Friend WithEvents ColMasuk As DataGridViewTextBoxColumn
+    Friend WithEvents Colkeluar As DataGridViewTextBoxColumn
+    Friend WithEvents ColHarga As DataGridViewTextBoxColumn
+    Friend WithEvents ColJenis As DataGridViewTextBoxColumn
+    Friend WithEvents ColId As DataGridViewTextBoxColumn
+    Friend WithEvents lblJmlKendaraan As Label
+    Friend WithEvents Label1 As Label
 End Class
