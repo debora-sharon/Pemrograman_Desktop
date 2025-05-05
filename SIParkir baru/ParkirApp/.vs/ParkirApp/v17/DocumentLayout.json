@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir baru\\ParkirApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\siparkir baru\\parkirapp\\parkirapp\\frmutama.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\frmutama.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\siparkir baru\\parkirapp\\parkirapp\\frmlaporan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\frmlaporan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\siparkir baru\\parkirapp\\parkirapp\\frmlaporan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\frmlaporan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\siparkir baru\\parkirapp\\parkirapp\\moduledb.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\moduledb.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\siparkir baru\\parkirapp\\parkirapp\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir baru\\ParkirApp\\parkirapp\\frmutama.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\frmutama.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir baru\\ParkirApp\\parkirapp\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModuleDB.vb",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir baru\\ParkirApp\\ParkirApp\\ModuleDB.vb",
+              "RelativeDocumentMoniker": "ParkirApp\\ModuleDB.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir baru\\ParkirApp\\ParkirApp\\ModuleDB.vb",
+              "RelativeToolTip": "ParkirApp\\ModuleDB.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-05T15:38:21.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmLaporan.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir baru\\ParkirApp\\ParkirApp\\frmLaporan.vb",
+              "RelativeDocumentMoniker": "ParkirApp\\frmLaporan.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir baru\\ParkirApp\\ParkirApp\\frmLaporan.vb [Design]",
+              "RelativeToolTip": "ParkirApp\\frmLaporan.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-01T05:03:07.721Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmUtama.vb",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir baru\\ParkirApp\\ParkirApp\\frmUtama.vb",
+              "RelativeDocumentMoniker": "ParkirApp\\frmUtama.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir baru\\ParkirApp\\ParkirApp\\frmUtama.vb",
+              "RelativeToolTip": "ParkirApp\\frmUtama.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-05T15:39:23.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmLaporan.vb",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir baru\\ParkirApp\\ParkirApp\\frmLaporan.vb",
+              "RelativeDocumentMoniker": "ParkirApp\\frmLaporan.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir baru\\ParkirApp\\ParkirApp\\frmLaporan.vb",
+              "RelativeToolTip": "ParkirApp\\frmLaporan.vb",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-05T15:42:20.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataSet1.xsd",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir baru\\ParkirApp\\ParkirApp\\DataSet1.xsd",
+              "RelativeDocumentMoniker": "ParkirApp\\DataSet1.xsd",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir baru\\ParkirApp\\ParkirApp\\DataSet1.xsd",
+              "RelativeToolTip": "ParkirApp\\DataSet1.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-05-05T14:51:18.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmUtama.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir baru\\ParkirApp\\ParkirApp\\frmUtama.vb",
+              "RelativeDocumentMoniker": "ParkirApp\\frmUtama.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir baru\\ParkirApp\\ParkirApp\\frmUtama.vb [Design]",
+              "RelativeToolTip": "ParkirApp\\frmUtama.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-01T03:15:09.316Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Report1.rdlc [Design]",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir baru\\ParkirApp\\ParkirApp\\Report1.rdlc",
+              "RelativeDocumentMoniker": "ParkirApp\\Report1.rdlc",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir baru\\ParkirApp\\ParkirApp\\Report1.rdlc [Design]",
+              "RelativeToolTip": "ParkirApp\\Report1.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2025-05-05T15:21:38.587Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@ Public Class frmUtama
         Dim i
         i = 0
         DataGridView1.Rows.Clear()
-        Dim sql As String = "select * from tblparkir where DATE(`waktu_masuk`) = CURDATE()"
+        Dim sql As String = "select * from tblparkir where waktu_keluar is null"
         If myConn.State = ConnectionState.Closed Then
             myConn.Open()
         End If
@@ -203,23 +203,25 @@ Public Class frmUtama
     End Sub
 
     Private Sub LaporanToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LaporanToolStripMenuItem.Click
-        Dim sql As String = "select sum(harga) from tblparkir where DATE(waktu_masuk) = CURDATE() and DATE(waktu_keluar) = CURDATE()"
-        If myConn.State = ConnectionState.Closed Then
-            myConn.Open()
-        End If
-        If myCommand Is Nothing Then
-            myCommand = New MySqlCommand(sql, myConn)
-        Else
-            myCommand.CommandText = sql
-        End If
-        Dim hasil As Object = myCommand.ExecuteScalar
-        Dim total As String = ""
-        If hasil.Equals(DBNull.Value) Then
-            total = "0"
-        Else
-            total = hasil.ToString
-        End If
-        MsgBox("Total Pendapatan hari ini: Rp. " & total)
+        'Dim sql As String = "select sum(harga) from tblparkir where DATE(waktu_masuk) = CURDATE() and DATE(waktu_keluar) = CURDATE()"
+        'If myConn.State = ConnectionState.Closed Then
+        '    myConn.Open()
+        'End If
+        'If myCommand Is Nothing Then
+        '    myCommand = New MySqlCommand(sql, myConn)
+        'Else
+        '    myCommand.CommandText = sql
+        'End If
+        'Dim hasil As Object = myCommand.ExecuteScalar
+        'Dim total As String = ""
+        'If hasil.Equals(DBNull.Value) Then
+        '    total = "0"
+        'Else
+        '    total = hasil.ToString
+        'End If
+        'MsgBox("Total Pendapatan hari ini: Rp. " & total)
+        Form5.Show()
+        Me.Hide()
     End Sub
 
     Private Sub frmUtama_Load(sender As Object, e As EventArgs) Handles MyBase.Load

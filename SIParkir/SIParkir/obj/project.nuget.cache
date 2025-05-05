@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "Agmvn145n4I=",
+  "dgSpecHash": "2VXiTnj+4Cg=",
   "success": true,
   "projectFilePath": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\SIParkir\\SIParkir\\SIParkir.vbproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\Sharonnn\\.nuget\\packages\\microsoft.reportingservices.reportviewercontrol.winforms\\150.1652.0\\microsoft.reportingservices.reportviewercontrol.winforms.150.1652.0.nupkg.sha512",
+    "C:\\Users\\Sharonnn\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\Sharonnn\\.nuget\\packages\\microsoft.sqlserver.types\\160.1000.6\\microsoft.sqlserver.types.160.1000.6.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.ReportingServices.ReportViewerControl.Winforms 150.1652.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.ReportingServices.ReportViewerControl.Winforms",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
 }
