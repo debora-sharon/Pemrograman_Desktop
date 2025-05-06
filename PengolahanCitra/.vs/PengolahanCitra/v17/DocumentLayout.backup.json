@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\PengolahanCitra\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53F46034-BB23-4661-941F-3F545A4BBAFA}|PengolahanCitra\\PengolahanCitra.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\pengolahancitra\\pengolahancitra\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{53F46034-BB23-4661-941F-3F545A4BBAFA}|PengolahanCitra\\PengolahanCitra.vbproj|solutionrelative:pengolahancitra\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F46034-BB23-4661-941F-3F545A4BBAFA}|PengolahanCitra\\PengolahanCitra.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\pengolahancitra\\pengolahancitra\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{53F46034-BB23-4661-941F-3F545A4BBAFA}|PengolahanCitra\\PengolahanCitra.vbproj|solutionrelative:pengolahancitra\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F46034-BB23-4661-941F-3F545A4BBAFA}|PengolahanCitra\\PengolahanCitra.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\pengolahancitra\\pengolahancitra\\frmhistogram.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{53F46034-BB23-4661-941F-3F545A4BBAFA}|PengolahanCitra\\PengolahanCitra.vbproj|solutionrelative:pengolahancitra\\frmhistogram.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F46034-BB23-4661-941F-3F545A4BBAFA}|PengolahanCitra\\PengolahanCitra.vbproj|c:\\users\\sharonnn\\onedrive\\documents\\tugas kampus\\progdesk\\pemrograman_desktop\\pengolahancitra\\pengolahancitra\\frmhistogram.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{53F46034-BB23-4661-941F-3F545A4BBAFA}|PengolahanCitra\\PengolahanCitra.vbproj|solutionrelative:pengolahancitra\\frmhistogram.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\PengolahanCitra\\PengolahanCitra\\Form1.vb",
+              "RelativeDocumentMoniker": "PengolahanCitra\\Form1.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\PengolahanCitra\\PengolahanCitra\\Form1.vb",
+              "RelativeToolTip": "PengolahanCitra\\Form1.vb",
+              "ViewState": "AgIAAAABAAAAAAAAAAAkwCIBAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-06T01:09:59.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\PengolahanCitra\\PengolahanCitra\\Form1.vb",
+              "RelativeDocumentMoniker": "PengolahanCitra\\Form1.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\PengolahanCitra\\PengolahanCitra\\Form1.vb [Design]",
+              "RelativeToolTip": "PengolahanCitra\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-06T01:05:51.152Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmHistogram.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\PengolahanCitra\\PengolahanCitra\\frmHistogram.vb",
+              "RelativeDocumentMoniker": "PengolahanCitra\\frmHistogram.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\PengolahanCitra\\PengolahanCitra\\frmHistogram.vb [Design]",
+              "RelativeToolTip": "PengolahanCitra\\frmHistogram.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-06T01:26:50.305Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmHistogram.vb",
+              "DocumentMoniker": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\PengolahanCitra\\PengolahanCitra\\frmHistogram.vb",
+              "RelativeDocumentMoniker": "PengolahanCitra\\frmHistogram.vb",
+              "ToolTip": "C:\\Users\\Sharonnn\\OneDrive\\Documents\\Tugas Kampus\\ProgDesk\\Pemrograman_Desktop\\PengolahanCitra\\PengolahanCitra\\frmHistogram.vb",
+              "RelativeToolTip": "PengolahanCitra\\frmHistogram.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-06T01:27:43.894Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
