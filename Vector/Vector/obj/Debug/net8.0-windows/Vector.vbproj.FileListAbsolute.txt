@@ -1,0 +1,17 @@
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Vector\Vector\bin\Debug\net8.0-windows\Vector.exe
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Vector\Vector\bin\Debug\net8.0-windows\Vector.deps.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Vector\Vector\bin\Debug\net8.0-windows\Vector.runtimeconfig.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Vector\Vector\bin\Debug\net8.0-windows\Vector.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Vector\Vector\bin\Debug\net8.0-windows\Vector.pdb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Vector\Vector\obj\Debug\net8.0-windows\Vector.vbproj.GenerateResource.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Vector\Vector\obj\Debug\net8.0-windows\Vector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Vector\Vector\obj\Debug\net8.0-windows\Vector.AssemblyInfoInputs.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Vector\Vector\obj\Debug\net8.0-windows\Vector.AssemblyInfo.vb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Vector\Vector\obj\Debug\net8.0-windows\Vector.vbproj.CoreCompileInputs.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Vector\Vector\obj\Debug\net8.0-windows\Vector.sourcelink.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Vector\Vector\obj\Debug\net8.0-windows\Vector.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Vector\Vector\obj\Debug\net8.0-windows\refint\Vector.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Vector\Vector\obj\Debug\net8.0-windows\Vector.pdb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Vector\Vector\obj\Debug\net8.0-windows\Vector.genruntimeconfig.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Vector\Vector\obj\Debug\net8.0-windows\ref\Vector.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Vector\Vector\obj\Debug\net8.0-windows\Vector.frmUtama.resources
