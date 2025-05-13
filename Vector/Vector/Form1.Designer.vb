@@ -325,19 +325,19 @@ Partial Class frmUtama
         ' BukaToolStripMenuItem
         ' 
         BukaToolStripMenuItem.Name = "BukaToolStripMenuItem"
-        BukaToolStripMenuItem.Size = New Size(142, 26)
+        BukaToolStripMenuItem.Size = New Size(224, 26)
         BukaToolStripMenuItem.Text = "Buka"
         ' 
         ' SimpanToolStripMenuItem
         ' 
         SimpanToolStripMenuItem.Name = "SimpanToolStripMenuItem"
-        SimpanToolStripMenuItem.Size = New Size(142, 26)
+        SimpanToolStripMenuItem.Size = New Size(224, 26)
         SimpanToolStripMenuItem.Text = "Simpan"
         ' 
         ' KeluarToolStripMenuItem
         ' 
         KeluarToolStripMenuItem.Name = "KeluarToolStripMenuItem"
-        KeluarToolStripMenuItem.Size = New Size(142, 26)
+        KeluarToolStripMenuItem.Size = New Size(224, 26)
         KeluarToolStripMenuItem.Text = "Keluar"
         ' 
         ' frmUtama

@@ -59,7 +59,9 @@ Public Class frmUtama
                     End Using
                     PictureBox1.Invalidate()
                     TextBox1.AppendText("o " + "warnatepi" + " " + warnatepi.R.ToString + " " + warnatepi.G.ToString + " " + warnatepi.B.ToString & vbCrLf)
-                    TextBox1.AppendText("o garis " + titik.X.ToString + " " + titik.Y.ToString + " " + e.X.ToString + " " + e.Y.ToString & vbCrLf)
+                    TextBox1.AppendText("o " + "warnaisian" + " " + warnaisian.R.ToString + " " + warnaisian.G.ToString + " " + warnaisian.B.ToString & vbCrLf)
+                    TextBox1.AppendText("o " + modegambar + " " + titik.X.ToString + " " + titik.Y.ToString + " " + e.X.ToString + " " + e.Y.ToString & vbCrLf)
+                    TextBox1.AppendText("o " + "ukuran " + tepi.Width.ToString() & vbCrLf)
                     titik = e.Location
                 End If
         End Select
@@ -95,9 +97,10 @@ Public Class frmUtama
         PictureBox1.Invalidate()
         dipencet = False
         If (titik.X <> e.X And titik.Y <> e.Y) Then
-            TextBox1.AppendText("o " + "warnatepi" + " " + warnatepi.R.ToString + " " + warnatepi.G.ToString + " " + warnatepi.B.ToString & vbNewLine)
-            TextBox1.AppendText("o " + "warnaisian" + " " + warnaisian.R.ToString + " " + warnaisian.G.ToString + " " + warnaisian.B.ToString & vbNewLine)
-            TextBox1.AppendText("o " + modegambar + " " + titik.X.ToString + " " + titik.Y.ToString + " " + e.X.ToString + " " + e.Y.ToString & vbNewLine)
+            TextBox1.AppendText("o " + "warnatepi" + " " + warnatepi.R.ToString + " " + warnatepi.G.ToString + " " + warnatepi.B.ToString & vbCrLf)
+            TextBox1.AppendText("o " + "warnaisian" + " " + warnaisian.R.ToString + " " + warnaisian.G.ToString + " " + warnaisian.B.ToString & vbCrLf)
+            TextBox1.AppendText("o " + modegambar + " " + titik.X.ToString + " " + titik.Y.ToString + " " + e.X.ToString + " " + e.Y.ToString & vbCrLf)
+            TextBox1.AppendText("o " + "ukuran " + tepi.Width.ToString() & vbCrLf)
         End If
     End Sub
 
@@ -126,6 +129,8 @@ Public Class frmUtama
                 Case "warnaisian"
                     warnaisian = Color.FromArgb(CByte(pecah(2)), CByte(pecah(3)), CByte(pecah(4)))
                     isian.Color = warnaisian
+                Case "ukuran"
+                    tepi.Width = CInt(pecah(2))
                 Case "garis"
                     Using g As Graphics = Graphics.FromImage(PictureBox1.Image)
                         g.DrawLine(tepi, CInt(pecah(2)), CInt(pecah(3)), CInt(pecah(4)), CInt(pecah(5)))
@@ -158,16 +163,6 @@ Public Class frmUtama
     Private Sub KeluarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KeluarToolStripMenuItem.Click
         Application.Exit()
     End Sub
-
-    'Private Sub Warna1_MouseClick(sender As Object, e As MouseEventArgs) Handles Warna1.MouseClick
-    '    If e.Button <> MouseButtons.Right Then
-    '        warnatepi = Warna1.BackColor
-    '        ShapeTepi.BackColor = warnatepi
-    '    Else
-    '        warnaisian = Warna1.BackColor
-    '        ShapeIsian.BackColor = warnaisian
-    '    End If
-    'End Sub
 
     Private Sub Warna1_MouseDown(sender As Object, e As MouseEventArgs) Handles Warna1.MouseDown
         If e.Button <> MouseButtons.Right Then
@@ -226,6 +221,17 @@ Public Class frmUtama
         Else
             warnaisian = Warna6.BackColor
             ShapeIsian.BackColor = warnaisian
+        End If
+    End Sub
+
+    Private Sub btnUndo_Click(sender As Object, e As EventArgs) Handles btnUndo.Click
+        Dim lines As List(Of String) = TextBox1.Lines.ToList()
+        If lines.Count >= 4 Then
+            lines.RemoveRange(lines.Count - 4, 4)
+            TextBox1.Lines = lines.ToArray()
+            btnGbrUlang.PerformClick()
+        Else
+            MessageBox.Show("Tidak ada aksi yang bisa di-undo.", "Undo", MessageBoxButtons.OK, MessageBoxIcon.Information)
         End If
     End Sub
 End Class
