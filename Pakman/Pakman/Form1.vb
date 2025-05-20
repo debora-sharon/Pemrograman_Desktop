@@ -72,6 +72,7 @@ Public Class Form1
                     pacx = pacx - 1
                 End If
         End Select
+        Redraw()
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -93,6 +94,7 @@ Public Class Form1
         'kalau lebih dekat di sb y, kejar ke sb y dulu
         jarakx = Math.Abs(pacx - enmx)
         jaraky = Math.Abs(pacy - enmy)
+
         If jarakx > jaraky Then 'jika lebih jauh jarak kejar di x 
             If (pacx - enmx > 0) Then 'jika pakman di kanan
                 arah = 1 'arah kanan
@@ -100,6 +102,7 @@ Public Class Form1
                 arah = 3 'arah kiri
             End If
         End If
+
         If jarakx < jaraky Then
             If (pacy - enmy > 0) Then 'jika pakman di bawah
                 arah = 2 'arah bawah
@@ -107,9 +110,11 @@ Public Class Form1
                 arah = 0 'arah atas
             End If
         End If
+
         If (oldpacx = pacx) And (oldpacy = pacy) Then 'jika stop
             arah = Math.Floor(Rnd() * 4)
         End If
+
         Select Case arah
             Case 0
                 If map(enmy - 1, enmx) = 1 Then
@@ -128,19 +133,23 @@ Public Class Form1
                     enmx = enmx - 1
                 End If
         End Select
+
         oldpacx = pacx
         oldpacy = pacy
-        Redraw()
+
         'cek apakah posisi pakman sama dg musuh
         If (pacx = enmx) And (pacy = enmy) Then
             Timer1.Enabled = False
             MsgBox("Pakman Dies!")
         End If
+
         'cek apakah posisi pakman sama dg rumah
         If (pacx = goalx) And (pacy = goaly) Then
             Timer1.Enabled = False
             MsgBox("Pakman safe at Home!")
         End If
+
+        Redraw()
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
