@@ -1,0 +1,17 @@
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Pakman\Pakman\bin\Debug\net8.0-windows\Pakman.exe
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Pakman\Pakman\bin\Debug\net8.0-windows\Pakman.deps.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Pakman\Pakman\bin\Debug\net8.0-windows\Pakman.runtimeconfig.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Pakman\Pakman\bin\Debug\net8.0-windows\Pakman.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Pakman\Pakman\bin\Debug\net8.0-windows\Pakman.pdb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Pakman\Pakman\obj\Debug\net8.0-windows\Pakman.Form1.resources
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Pakman\Pakman\obj\Debug\net8.0-windows\Pakman.vbproj.GenerateResource.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Pakman\Pakman\obj\Debug\net8.0-windows\Pakman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Pakman\Pakman\obj\Debug\net8.0-windows\Pakman.AssemblyInfoInputs.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Pakman\Pakman\obj\Debug\net8.0-windows\Pakman.AssemblyInfo.vb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Pakman\Pakman\obj\Debug\net8.0-windows\Pakman.vbproj.CoreCompileInputs.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Pakman\Pakman\obj\Debug\net8.0-windows\Pakman.sourcelink.json
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Pakman\Pakman\obj\Debug\net8.0-windows\Pakman.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Pakman\Pakman\obj\Debug\net8.0-windows\refint\Pakman.dll
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Pakman\Pakman\obj\Debug\net8.0-windows\Pakman.pdb
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Pakman\Pakman\obj\Debug\net8.0-windows\Pakman.genruntimeconfig.cache
+C:\Users\Sharonnn\OneDrive\Documents\Tugas Kampus\ProgDesk\Pemrograman_Desktop\Pakman\Pakman\obj\Debug\net8.0-windows\ref\Pakman.dll
