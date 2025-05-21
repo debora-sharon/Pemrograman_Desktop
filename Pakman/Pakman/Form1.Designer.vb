@@ -33,18 +33,19 @@ Partial Class Form1
         PictureBox1.Dock = DockStyle.Fill
         PictureBox1.Location = New Point(0, 0)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(438, 394)
+        PictureBox1.Size = New Size(634, 511)
         PictureBox1.TabIndex = 0
         PictureBox1.TabStop = False
         ' 
         ' Timer1
         ' 
+        Timer1.Enabled = True
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(438, 394)
+        ClientSize = New Size(634, 511)
         Controls.Add(PictureBox1)
         KeyPreview = True
         Name = "Form1"
